@@ -1,0 +1,21 @@
+.Button {
+  font-size: 16px;
+  line-height: 1;
+  color: var(--color-grey-20);
+  background-color: var(--color-blue-50);
+  border: none;
+  border-radius: 20px;
+  padding: 12px 16px;
+  transition: background-color 0.2s ease-out;
+}
+
+.Button:hover,
+.Button:focus {
+  background-color: var(--color-blue-80);
+  cursor: pointer;
+  outline: none;
+}
+
+.Button:active {
+  transform: translateY(1px);
+}
