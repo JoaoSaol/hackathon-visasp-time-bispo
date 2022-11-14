@@ -13,7 +13,9 @@ export function Login () {
     <div style={{display: 'grid', width: '100vw', height: '100vh', gridTemplateColumns: '6fr 4fr', overflow: 'hidden'}}>
       <div>
         <img src={TorcidaPNG} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
-        <img src={LogoWhiteSVG} style={{position: 'absolute', top: '56px', left: '160px'}} />
+        <Link to='/'>
+          <img src={LogoWhiteSVG} style={{position: 'absolute', top: '56px', left: '160px'}} />
+        </Link>
       </div>
       <div>
         <form style={{display: 'grid', padding: '48px', height: '100vh', alignContent: 'center', justifyContent: 'center', gap: '48px'}}>
