@@ -8,7 +8,7 @@ This project is the codebase for a hackaton created by Visa at the event Campus 
 
 ### Requirements
 
-- NodeJs (v16.5.0)
+- NodeJs (v18.12.1)
 - Yarn (v1.22.19)
 
 ### Installing NodeJs
@@ -32,10 +32,16 @@ yarn install
 
 ## Run the project locally
 
-Make sure you are in the directory of this project and run:
+Make sure you are in the directory of this project and run either:
 
 ```bash
 yarn dev
+```
+
+or
+
+```bash
+npm run dev
 ```
 
 If everything works correctly, you should see in the terminal something like this:
