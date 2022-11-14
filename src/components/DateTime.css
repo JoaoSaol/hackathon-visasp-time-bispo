@@ -1,0 +1,16 @@
+.DateTime {
+  display: flex;
+  gap: 8px;
+}
+
+.DateTime > .date {
+  color: var(--color-black-100);
+}
+
+.DateTime > .dot {
+  color: var(--color-gray-40);
+}
+
+.DateTime > .time {
+  color: var(--color-gray-40);
+}
