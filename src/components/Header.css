@@ -1,0 +1,25 @@
+.Header {
+  display: grid;
+  align-content: center;
+  height: 100%;
+}
+
+.Header nav {
+  display: flex;
+  align-items: center;
+}
+
+.Header .navbar {
+  display: flex;
+}
+
+.Header .navigation {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  margin: 0;
+  color: var(--color-blue-90);
+}
+
+.Header .navigation li a { opacity: 0.5; }
+.Header .navigation li .active { opacity: 1; }
